@@ -1,0 +1,264 @@
+[
+    {
+        "name": "Beaded JellyFish",
+        "image": "crafts/bead-jellyfish.jpg",
+        "description": "Create a hanging jellyfish using egg cartons and multicolored beads",
+        "supplies": [
+            "string",
+            "egg cartons",
+            "beads"
+        ]
+    },
+    {
+        "name": "Character Bookmarks",
+        "image": "crafts/bookmarks.jpeg",
+        "description": "Create a little birdy bookmark to always remind you where you were",
+        "supplies": [
+            "yellow construction paper",
+            "orange construction paper",
+            "black construction paper"
+        ]
+    },
+    {
+        "name": "Button Flowers",
+        "image": "crafts/button-flowers.jpeg",
+        "description": "Create a fun bouquet of flowers with your favorite buttons",
+        "supplies": [
+            "multicolored buttons",
+            "multicolored felt",
+            "green straws",
+            "ribbon"
+        ]
+    },
+    {
+        "name": "Cheerio Necklaces",
+        "image": "crafts/cheerio-necklace.webp",
+        "description": "Create a fun and edible necklace",
+        "supplies": [
+            "Cheerios or Fruit Loops",
+            "Elastic string"
+        ]
+    },
+    {
+        "name": "Cotton Ball Cupcakes",
+        "image": "crafts/cotton-ball-cupcakes.webp",
+        "description": "Decorate your fun-filled cupcake however you want.",
+        "supplies": [
+            "Construction Paper",
+            "Cotton Balls",
+            "Black Sharpie",
+            "Glitter"
+        ]
+    },
+    {
+        "name": "School Themed Mason Jars",
+        "image": "crafts/decorated-jars.jpeg",
+        "description": "Let's make mason jars to",
+        "supplies": [
+            "Construction Paper",
+            "Cotton Balls",
+            "Black Sharpie",
+            "Glitter"
+        ]
+    },
+    {
+        "name": "Egg Carton Flowers",
+        "image": "crafts/egg-carton-flowers.jpg",
+        "description": "Make a beautiful bouquet with egg cartons and other items you can find around the house",
+        "supplies": [
+            "Egg Cartons",
+            "Buttons",
+            "Green Pipe Cleaner",
+            "Ribbon",
+            "Canvas"
+        ]
+    },
+    {
+        "name": "Finger Puppets",
+        "image": "crafts/finger-puppets.jpeg",
+        "description": "These little critters are easy to make and will entertain your little one while they make a show.",
+        "supplies": [
+            "Pom-poms",
+            "Googly Eyes",
+            "Pipe Cleaner"
+        ]
+    },
+    {
+        "name": "Ribbon Flower Headbands",
+        "image": "crafts/flower-headbands.jpg",
+        "description": "Let your little one show off her new style with these pretty and customizable headbands",
+        "supplies": [
+            "Plain headband",
+            "Ribbon",
+            "Buttons",
+            "Gems"
+        ]
+    },
+    {
+        "name": "Hand Print Fish Puppets",
+        "image": "crafts/handprint-fish.jpg",
+        "description": "We all need to take every opportunity we can to remember those tiny hands, and what better way to do it than to make fish puppets!",
+        "supplies": [
+            "Popsicle sticks",
+            "Cardstock",
+            "Gems",
+            "Googly Eyes"
+        ]
+    },
+    {
+        "name": "Hand Print Tree",
+        "image": "crafts/hand-print-tree.jpeg",
+        "description": "This is a fun way to get your little one into finger painting.",
+        "supplies": [
+            "Watercolor Paper",
+            "Finger paint"
+        ]
+    },
+    {
+        "name": "Melted Bead Bowl",
+        "image": "crafts/melted-bead-bowl.jpeg",
+        "description": "All they need to do is shape their favorite design, warm it up and they have a brand new bowl.",
+        "supplies": [
+            "Beads",
+            "Bowl",
+            "Parchment paper"
+        ]
+    },
+    {
+        "name": "Monster Kites",
+        "image": "crafts/monster-rolls.jpg",
+        "description": "Let's make those scary toilet paper rolls fly!",
+        "supplies": [
+            "Toilet paper rolls",
+            "Paint",
+            "Tissue Paper",
+            "String"
+        ]
+    },
+    {
+        "name": "Pool Noodle Boats",
+        "image": "crafts/noodle-boats.png",
+        "description": "Let's make a boat that will actually float, due to the floating bottom of a pool noodle.",
+        "supplies": [
+            "Pool Noodle",
+            "Straw",
+            "Plastic Paper"
+        ]
+    },
+    {
+        "name": "Paper Plate Bees",
+        "image": "crafts/paper-plate-bees.jpeg",
+        "description": "Let's have fun with making cute little bees, or big bees actually.",
+        "supplies": [
+            "Paper Plate",
+            "Googly Eyes",
+            "Close Pins",
+            "Black pom poms",
+            "Yellow Paint",
+            "Black Paint"
+        ]
+    },
+    {
+        "name": "Paper Plate Dinosaurs",
+        "image": "crafts/paper-plate-dinosaurs.jpg",
+        "description": "Who would have thought that half a paper plate would be the base of a dinosaur.",
+        "supplies": [
+            "Paper Plate",
+            "Paint",
+            "Close Pins",
+            "Construction Paper"
+        ]
+    },
+    {
+        "name": "Porcupine Leafs",
+        "image": "crafts/porcupine-leaf.webp",
+        "description": "Let's turn an ordinary paper plate into a fun filled mask.",
+        "supplies": [
+            "Leaves",
+            "Berries",
+            "Acorns",
+            "Construction Paper"
+        ]
+    },
+    {
+        "name": "Rainbow Cloud",
+        "image": "crafts/rainbow-cloud.webp",
+        "description": "Some cotton and color and you'll have a beautiful rainbow.",
+        "supplies": [
+            "Paper Plate",
+            "Cotton Balls",
+            "Construction Paper"
+        ]
+    },
+    {
+        "name": "Fun Shaped Crayons",
+        "image": "crafts/shaped-crayons.jpg",
+        "description": "Let's melt some crayons together and let them harden into fun shapes.",
+        "supplies": [
+            "Broken Crayons",
+            "Mold"
+        ]
+    },
+    {
+        "name": "Straw Farris Wheel",
+        "image": "crafts/straw-faris-wheel.jpg",
+        "description": "It might be too small to ride, but this farris wheel is the most colorful of all.",
+        "supplies": [
+            "Mult"
+
+        ]
+    },
+    {
+        "name": "Sunny String",
+        "image": "crafts/sun-string.jpg",
+        "description": "Let's practice our fine motor skills while we weave the string into a fun sun.",
+        "supplies": [
+            "Yellow String",
+            "Paper Plate",
+            "Yellow construction paper",
+            "Yellow and Orange beads"
+        ]
+    },
+    {
+        "name": "Tissue Ballerinas",
+        "image": "crafts/tisue-dancer.jpeg",
+        "description": "These beautiful dancers will look great on display",
+        "supplies": [
+            "Pipe cleaner",
+            "Tissue Paper",
+            "Elastics"
+        ]
+    },
+    {
+        "name": "Toilet Paper Roll Animals",
+        "image": "crafts/toilet-paper-animals.jpeg",
+        "description": "These beautiful dancers will look great on display",
+        "supplies": [
+            "Toilet Paper Rolls",
+            "Construction Paper",
+            "Googly Eyes"
+        ]
+    },
+    {
+        "name": "Toilet Paper Butterfly",
+        "image": "crafts/toilet-paper-butterfly.jpg",
+        "description": "Such a sweet little flyer",
+        "supplies": [
+            "Toilet Paper Rolls",
+            "Construction Paper",
+            "Googly Eyes",
+            "Buttons"
+        ]
+    },
+    {
+        "name": "Valentines Jar",
+        "image": "crafts/valentines-jar.webp",
+        "description": "So many hearts all in one",
+        "supplies": [
+            "Clay",
+            "Glitter"
+        ]
+    }
+]
+
+   

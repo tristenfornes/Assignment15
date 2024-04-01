@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crafts Gallery</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Crafts Gallery</h1>
+    <div id="crafts-gallery" class="w3-row-padding"></div>
+
+    <!-- Modal for adding a new craft -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Add New Craft</h2>
+            <form id="add-craft-form">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="description">Description:</label><br>
+                <textarea id="description" name="description" required></textarea><br><br>
+                <label for="image">Select An Image:</label><br>
+                <input type="file" id="image" name="image" accept="image/*" required><br><br>
+                <label for="supplies">Supplies:</label><br>
+                <input type="text" id="supplies" name="supplies" required><br><br>
+                <div id="additional-supplies"></div>
+                <button id="add-supply-btn">Add Supply</button><br><br>
+                <button type="submit">Save</button>
+                <button type="button" id="cancel-btn">Cancel</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
