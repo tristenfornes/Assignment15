@@ -1,12 +1,10 @@
 const express = require('express');
 const Joi = require('joi');
 const multer = require('multer');
-const cors = require('cors');
 const fs = require('fs').promises;
 
 const app = express();
 app.use(express.json());
-app.use(cors());
 
 const craftsFilePath = './crafts.json';
 
@@ -83,6 +81,33 @@ app.post('/crafts', upload.single('image'), async (req, res) => {
   } catch (error) {
     console.error('Error adding craft:', error);
     res.status(500).send('Error adding craft');
+  }
+});
+
+// Delete a craft
+app.delete('/crafts/:id', async (req, res) => {
+  try {
+    const { id } = req.params;
+
+    // Read existing crafts data
+    let crafts = await getCraftsData();
+
+    // Find index of craft with given id
+    const index = crafts.findIndex(craft => craft.id === parseInt(id));
+    if (index === -1) {
+      return res.status(404).send('Craft not found');
+    }
+
+    // Remove craft from array
+    crafts.splice(index, 1);
+
+    // Save updated crafts data
+    await saveCraftsData(crafts);
+
+    res.status(200).send('Craft deleted successfully');
+  } catch (error) {
+    console.error('Error deleting craft:', error);
+    res.status(500).send('Error deleting craft');
   }
 });
 

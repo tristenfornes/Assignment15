@@ -20,6 +20,20 @@
     border-radius: 5px;
 }
 
+.delete-button {
+    position: absolute; 
+    top: 5px; 
+    right: 5px; 
+    background-color: #ff6347; 
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
 /* Modal */
 .modal {
     display: none;
