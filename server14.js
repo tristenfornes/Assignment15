@@ -2,6 +2,7 @@ const express = require('express');
 const Joi = require('joi');
 const multer = require('multer');
 const fs = require('fs').promises;
+const path = require('path');
 
 const app = express();
 app.use(express.json());
@@ -48,6 +49,11 @@ async function saveCraftsData(crafts) {
     console.error('Error saving crafts data:', error);
   }
 }
+
+// Serve the index.html file for the root directory
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'index.html'));
+});
 
 // Get all crafts
 app.get('/crafts', async (req, res) => {
